@@ -44,13 +44,16 @@ export  function Menu() {
       <div className="flex flex-row justify-between p-5 px-5 md:px-32 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
         <div>
           <Link to="/Layout" className=" font-semibold text-2xl p-1 cursor-pointer">
-            eStudy
+            Addust
           </Link>
         </div>
 
         <nav className="hidden md:flex gap-5 font-medium p-1 text-lg">
           <Link
             to="home"
+            spy={true}
+            smooth={true}
+            duration={500}
             className="hover:text-[#539165] transition-all cursor-pointer"
           >
             Home
