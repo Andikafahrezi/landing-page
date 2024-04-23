@@ -2,7 +2,7 @@ import { Link as Linked } from "react-router-dom";
 import { Link } from "react-scroll";
 import { Navbar, NavbarCollapse, NavbarToggle } from "flowbite-react";
 
-function Component() {
+function Menus() {
   return (
     <Navbar
       fluid
@@ -17,16 +17,34 @@ function Component() {
       <NavbarToggle />
       <NavbarCollapse className="hp:text-center">
         <Link
-          to="homee"
+          to="home"
           className="hover:text-[#539165] p-1 transition-all cursor-pointer text-lg font-medium"
         >
           Home
         </Link>
         <Link
-          to="pamflate"
+          to="about"
           className="hover:text-[#539165] p-1 transition-all  cursor-pointer text-lg font-medium"
         >
           About
+        </Link>
+        <Link
+          to="courses"
+          className="hover:text-[#539165] p-1 transition-all  cursor-pointer text-lg font-medium"
+        >
+          Courses
+        </Link>
+        <Link
+          to="reviews"
+          className="hover:text-[#539165] p-1 transition-all cursor-pointer text-lg font-medium"
+        >
+          Reviews
+        </Link>
+        <Link
+          to="contact"
+          className="hover:text-[#539165] p-1 transition-all  cursor-pointer text-lg font-medium"
+        >
+          Contact
         </Link>
         <Linked
           to="/Ppdb"
@@ -39,4 +57,4 @@ function Component() {
   );
 }
 
-export default Component;
+export default Menus;
