@@ -3,7 +3,7 @@ import img from "../assets/about.svg";
 import Heading from "../layout/Heading";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Details from "../constants/Detailss";
+import Details from "../layout/Detailss";
 
 const About = () => {
   useEffect(() => {

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Home from "./Home";
 import Navbaru from "./Navbar";
 import { Link as Linked } from "react-router-dom";
@@ -5,10 +6,13 @@ import { Link } from "react-scroll";
 import Button from "../layout/Button";
 import Footer  from "../components/Footer";
 import img from "../assets/images/ppdb.jpg";
+import  Spinner  from "../layout/Spinner";
 
 const Ppdb = () => {
+  const [loading] = useState(false);
   return (
     <div>
+      {loading ? <Spinner /> : ''}
       <Navbaru />
       <div id="homee" className="my-12">
       <Home />
