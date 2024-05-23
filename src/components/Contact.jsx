@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Contact = () => {
   return (
-    <div className=" w-screen flex flex-col items-center justify-center mx-5 mt-10 md:mx-1 bg-green-400">
+    <div className=" w-screen flex flex-col items-center justify-center  mt-10 md:mx-1 bg-green-400">
       <h1 className="text-4xl font-bold mt-8 mb-10 hp:text-3xl  text-white ">Ada pertanyaan hubungi kami</h1>
       <Link to="contact" spy={true} smooth={true} duration={500}>
           <Button title="Contact Us" />

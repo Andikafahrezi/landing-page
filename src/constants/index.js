@@ -7,10 +7,10 @@ import {
     RxAccessibility,
   } from "react-icons/rx";
   
-  import SpaceCity1 from "../assets/images/pic1.png";
-  import SpaceCity5 from "../assets/images/pic2.png";
+  import SpaceCity1 from "../assets/images/pot1.jpg";
+  import SpaceCity5 from "../assets/images/pot2.jpg";
   import SpaceCity6 from "../assets/images/pic2.png";
-  import SpaceCity7 from "../assets/images/pic3.png";
+  import SpaceCity7 from "../assets/images/pot3.jpg";
   import SpaceCity8 from "../assets/images/pic2.png";
   import SpaceCity9 from "../assets/images/pic3.png";
   
