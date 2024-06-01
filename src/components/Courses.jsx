@@ -8,7 +8,7 @@ import digitalImg from "../assets/digital.svg";
 const Courses = () => {
   return (
     <div className=" min-h-screen flex flex-col items-center md:px-32 px-5 my-10 pb-10  bg-green-400">
-      <Heading title1="Our" title2="Courses" />
+      <Heading title1="Pelajaran" title2="Kami" />
 
       <div  className=" flex flex-wrap justify-center gap-6 mt-6">
         <CoursesCard

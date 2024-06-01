@@ -17,14 +17,13 @@ import {
   export const ServiceData = [
     {
       icon: RxCrop,
-      title: "Development",
-      content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
+      title: "Karakter",
+      content: "Memiliki Karakter yang kuat.",
       backgroundImage: SpaceCity9,
     },
     {
       icon: RxPencil2,
-      title: "Branding",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "Berbudi Pekerti yang baik",
       backgroundImage: SpaceCity1,
     },
     {

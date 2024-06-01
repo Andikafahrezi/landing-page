@@ -1,6 +1,7 @@
 import { Link as Linked } from "react-router-dom";
 import { Link } from "react-scroll";
 import { Navbar, NavbarCollapse, NavbarToggle } from "flowbite-react";
+import img from "../assets/images/logo.jpg";
 
 function Menus() {
   return (
@@ -10,8 +11,9 @@ function Menus() {
       className="flex flex-row justify-between p-5 md:px-20 shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
     >
       <div>
-        <Linked to="/" className="font-semibold text-2xl xl:mr-96 cursor-pointer hp:mr-0">
-          Addust
+        <Linked to="/" className="flex flex-wrap font-semibold text-4xl xl:mr-40 cursor-pointer hp:mr-0">
+        <img src={img} alt="" className=" w-12 rounded-full"/>
+          <h1 className=" text-2xl mt-2">TK Fajar Nusantara</h1>
         </Linked>
       </div>
       <NavbarToggle />

@@ -1,7 +1,7 @@
 import { Link as Linked } from "react-router-dom";
 import { Link } from "react-scroll";
 import { Navbar, NavbarCollapse, NavbarToggle } from "flowbite-react";
-import img from "../assets/images/ha.jpeg";
+import img from "../assets/images/logo.jpg";
 
 function Component() {
   return (
@@ -12,8 +12,8 @@ function Component() {
     >
       <div>
         <Linked to="/" className=" flex flex-wrap font-semibold text-4xl xl:mr-96 cursor-pointer hp:mr-0">
-          <img src={img} alt="" className=" w-10"/>
-          Addust
+          <img src={img} alt="" className=" w-16"/>
+          <h1 className="text-3xl mt-4">TK Fajar Nusantara</h1>
                </Linked>
       </div>
       <NavbarToggle />
