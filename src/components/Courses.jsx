@@ -13,10 +13,10 @@ const Courses = () => {
       <div  className=" flex flex-wrap justify-center gap-6 mt-6">
         <CoursesCard
           img={webImg}
-          title="Web Development"
-          para="loremsnndsoandandoansdsannadsndan"
+          title="Berbudi Pekerti"
+          para="Belajar bersosialisasi"
         />
-        <CoursesCard img={appImg} title="App Development" />
+        <CoursesCard img={appImg} title="Menghitung" para="Belajar dasar-dasar perhitungan sederhana" />
         <CoursesCard img={graphicImg} title="Graphic Designer" />
         <CoursesCard img={digitalImg} title="Digital Marketing" />
       </div>
