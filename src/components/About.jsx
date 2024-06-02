@@ -1,9 +1,8 @@
 import { useEffect } from "react";
-import img from "../assets/about.svg";
+import img from "../assets/images/logos.png";
 import Heading from "../layout/Heading";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Details from "../layout/Detailss";
 
 const About = () => {
   useEffect(() => {
@@ -27,12 +26,16 @@ const About = () => {
       >
         <Heading title1="Profile" title2="Sekolah" />
         <h2 className=" text-gray-600">TK Fajar Nusantara</h2>
-        <p className=" text-lightText">
-          Sekolah ini adalah sekolah umggulan dari Yayasan sasmita sellau
-          merdeka. dengan pengajar yang profesional menjadikan bibit y
+        <p className=" text-lightText text-justify">
+        TK Fajar Nusantara didirikan pada tahun 2005 dengan tujuan mulia untuk menghasilkan generasi penerus yang
+         tidak hanya cerdas dan terampil tetapi juga memiliki akhlak islami yang kuat. TK Fajar Nusantara
+          didirikan dari keinginan para pendidik dan orang tua untuk pendidikan anak usia dini 
+          yang menyeluruh dan berbasis nilai-nilai islami. Baik kurikulum
+           maupun fasilitas TK Fajar Nusantara terus berkembang. Kurikulum yang
+            digunakan tidak hanya berfokus pada pendidikan formal, tetapi juga pada pe
+            mbentukan karakter dan moral islami. Dengan program hafalan dan tafsir yang disesuaikan 
+            dengan usia anak-anak, pembelajaran Al-Quran menjadi pilar utama
         </p>
-        in
-        <Details />
       </div>
     </div>
   );
