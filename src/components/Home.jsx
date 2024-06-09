@@ -1,4 +1,4 @@
-import img from "../assets/hero.svg";
+import img from "../assets/images/utama.jpg";
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
         </div>
 
         <div className=" w-full md:w-2/4">
-          <img src={img} alt="img" />
+          <img src={img} alt="img" className=" rounded-xl"/>
         </div>
       </div>
     </div>

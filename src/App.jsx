@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import ImgSlider from "./components/ActiveSlider";
 import Ppdb from "./components/Ppdb";
 import ActiveSlider from "./components/ActiveSlider";
+import ContactUs from "./components/ContactUs";
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
       <Route path="/Footer" element={<Footer />} />
       <Route path="/Ppdb" element={<Ppdb />} />
       <Route path="/Contact" element={<Contact />} />
+      <Route path="/ContactUs" element={<ContactUs />} />
       <Route path="/Imgslider" element={<ImgSlider />} />
       <Route path="*" element={<Layout />} />
     </Routes>

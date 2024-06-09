@@ -1,7 +1,8 @@
 import Heading from "../layout/Heading";
 import ReviewCard from "../layout/ReviewCard";
-import img1 from "../assets/images/pic1.png";
-import img2 from "../assets/images/pic2.png";
+import img1 from "../assets/images/tc1.jpg";
+import img2 from "../assets/images/tc5.jpg";
+import img3 from "../assets/images/tc6.jpg";
 
 
 const Reviews = () => {
@@ -11,10 +12,8 @@ const Reviews = () => {
 
       <div className=" flex flex-col md:flex-row gap-5 mt-5">
         <ReviewCard img={img1} para="Halo Anak-anak mari belajar berbudi pekerti yang baik!" position="Kepala Sekolah"/>
-        <ReviewCard img={img1} para="Halo Anak-anak mari belajar berbudi pekerti yang baik!" position="Guru"/>
-        <ReviewCard img={img1} para="Halo Anak-anak mari belajar berbudi pekerti yang baik!" position="Guru"/>
-        <ReviewCard img={img2} para="Mari belajar dengan giat" position="Guru"/>
-        
+        <ReviewCard img={img2} para="Halo Anak-anak mari belajar berbudi pekerti yang baik!" position="Guru"/>
+        <ReviewCard img={img3} para="Halo Anak-anak mari belajar berbudi pekerti yang baik!" position="Guru"/>        
       </div>
     </div>
   );
