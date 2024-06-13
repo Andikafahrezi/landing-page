@@ -4,7 +4,8 @@ const Home = () => {
   return (
     <div>
       <div className="min-h-[70vh] flex flex-col md:flex-row md:justify-between items-center md:mx-32 mx-5 mt-10">
-        <div className=" md:w-2/4 text-center">
+        <div data-aos="fade-right" data-aos-easing="linear"
+      data-aos-duration="5000" className=" md:w-2/4 text-center">
           <h2 className=" text-5xl font-semibold leading-tight  hp:text-4xl">
             TK Fajar
             <span className="text-brightGreen"> Nusantara</span>
@@ -14,7 +15,8 @@ const Home = () => {
           </p>
         </div>
 
-        <div className=" w-full md:w-2/4">
+        <div className=" w-full md:w-2/4" data-aos="fade-left" data-aos-easing="linear"
+      data-aos-duration="5000">
           <img src={img} alt="img" className=" rounded-xl"/>
         </div>
       </div>

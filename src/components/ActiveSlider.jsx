@@ -8,9 +8,13 @@ import { ServiceData } from "../constants";
 
 const ActiveSlider = () => {
   return (
-
-    <div className="flex items-center justify-center flex-col h-[600px] bg-white mt-10">
-      <Heading title1="Foto" title2="Kami"/>
+    <div
+      className="flex items-center justify-center flex-col h-[600px] bg-white mt-10"
+      data-aos="fade-left"
+      data-aos-easing="linear"
+      data-aos-duration="5000"
+    >
+      <Heading title1="Foto" title2="Kami" />
       <Swiper
         breakpoints={{
           340: {
@@ -46,7 +50,6 @@ const ActiveSlider = () => {
         ))}
       </Swiper>
     </div>
-    
   );
 };
 

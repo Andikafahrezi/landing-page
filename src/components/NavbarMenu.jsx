@@ -40,7 +40,7 @@ function Menus() {
           to="reviews"
           className="hover:text-[#539165] p-1 transition-all cursor-pointer text-lg font-medium"
         >
-          Reviews
+          Teacher
         </Link>
         <Link
           to="contact"

@@ -7,7 +7,7 @@
   import GalFot7 from "../assets/images/pot6.jpg";  
   export const ServiceData = [
     { 
-      content: "Memiliki Karakter yang kuat.",
+      content: "Memicu kreativitas anak.",
       backgroundImage: GalFot1,
     },
     {
@@ -15,24 +15,24 @@
       backgroundImage: GalFot2,
     },
     { 
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      content: "Belajar mewarnai.",
       backgroundImage: GalFot3,
     },
     {
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      content: "Foto bersama siswa.",
       backgroundImage: GalFot4,
     },
     {
       
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      content: "Lorong Kelas.",
       backgroundImage: GalFot5,
     },
     {
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      content: "Tempat Bermain.",
       backgroundImage: GalFot6,
     },
     {
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      content: "Tempat Bermain.",
       backgroundImage: GalFot7,
     },
   ];
