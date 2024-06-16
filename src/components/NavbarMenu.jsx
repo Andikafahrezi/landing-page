@@ -28,13 +28,13 @@ function Menus() {
           to="about"
           className="hover:text-[#539165] p-1 transition-all  cursor-pointer text-lg font-medium"
         >
-          About
+          Profile
         </Link>
         <Link
           to="courses"
           className="hover:text-[#539165] p-1 transition-all  cursor-pointer text-lg font-medium"
         >
-          Courses
+          Course
         </Link>
         <Link
           to="reviews"

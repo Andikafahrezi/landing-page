@@ -11,7 +11,7 @@ const Home = () => {
             <span className="text-brightGreen"> Nusantara</span>
           </h2>
           <p className=" text-lightText mt-5 text-start">
-            menjadi insan yang berahklak dan berbudi pekerti yang baik
+            Belajar menjadi insan yang berakhlak dan berbudi pekerti yang baik!
           </p>
         </div>
 
