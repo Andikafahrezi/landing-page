@@ -17,7 +17,7 @@ function Component() {
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div>
             <FooterBrand
-              href="https://flowbite.com"
+              href="https://www.instagram.com/tkfajar.nusantara/"
               src={img}
               alt="Addust Logo"
               name="TK Fajar Nusantara"

@@ -52,7 +52,7 @@ function Menus() {
           to="/Ppdb"
           className=" bg-green-400 text-white hover:bg-white hover:text-black transition-all   hover:outline-white ml-6 py-1 px-6 rounded-full font-medium text-lg"
         >
-          Ppdb
+          PPDB
         </Linked>
       </NavbarCollapse>
     </Navbar>

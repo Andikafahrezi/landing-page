@@ -18,12 +18,12 @@ function Component() {
       </div>
       <NavbarToggle />
       <NavbarCollapse className="hp:text-center">
-        <Link
-          to="Home"
+        <Linked
+          to="/"
           className="hover:text-[#539165] p-1 transition-all cursor-pointer text-lg font-medium"
         >
           Home
-        </Link>
+        </Linked>
         <Link
           to="ContactUs"
           className="hover:text-[#539165] p-1 transition-all  cursor-pointer text-lg font-medium"
@@ -34,7 +34,7 @@ function Component() {
           to="/Ppdb"
           className=" bg-green-400 text-white hover:bg-white hover:text-black hover:outline-white transition-all  outline ml-6 py-1 px-6 rounded-full font-medium text-lg"
         >
-          Ppdb
+          PPDB
         </Linked>
       </NavbarCollapse>
     </Navbar>
