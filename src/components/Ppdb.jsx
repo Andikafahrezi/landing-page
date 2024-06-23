@@ -20,19 +20,19 @@ const Ppdb = () => {
         className="flex justify-center"
         id="pamflate"
         data-aos="flip-right"
-        data-aos-easing="linear"
-        data-aos-duration="1500"
+        data-aos-easing="ease"
+        data-aos-duration="5000"
       >
         <img src={img} alt="Ppdb" className=" w-96" />
       </div>
       <div
         id="contactu"
-        className=" w-screen flex flex-col items-center justify-center mx-5 mt-10 mb-10 md:mx-1 bg-green-400"
+        className=" w-screen flex flex-col items-center justify-center mx-1 mt-10 mb-10 md:mx-1 bg-green-400"
       >
-        <h1 className="text-4xl font-bold mt-8 mb-10 hp:text-2xl  text-white ">
+        <h1 className="text-4xl font-bold mt-8 mb-10 hp:text-2xl  text-white text-center">
           AYO BERGABUNG BERSAMA KAMI
         </h1>
-        <div className="flex justify-center gap-10 mb-10">
+        <div className="flex justify-center gap-10 mb-10 sl:gap-2 ">
           <Linked to="https://api.whatsapp.com/send?phone=6281398485545&text=Saya%20ingin%20mengetahui%20tentang%20pendaftaran%20ini." spy={true} smooth={true} duration={500}>
             <Button title="Informasi PPDB" />
           </Linked>

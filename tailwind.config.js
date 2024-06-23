@@ -23,6 +23,8 @@ export default {
       // => @media (min-width: 1536px) { ... }
       'hp': '500px',
       // => @media (min-width: 640px) { ... }
+      'sl': '100px',
+      // => @media (min-width: 640px) { ... }
     },
     extend: {
       colors: {

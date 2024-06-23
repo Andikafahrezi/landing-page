@@ -4,8 +4,8 @@ import { Link as Linked } from "react-router-dom";
 
 const Contact = () => {
   return (
-    <div className=" w-screen flex flex-col items-center justify-center  mt-10 md:mx-1 bg-green-400">
-      <h1 className="text-4xl font-bold mt-8 mb-10 hp:text-3xl  text-white ">Ada pertanyaan? Hubungi kami !</h1>
+    <div className=" w-screen flex flex-col   mt-10 md:mx-1 bg-green-400 hp:items-center text-center" >
+      <h1 className="text-4xl font-bold mt-8 mb-10 hp:text-xl  text-white ">Ada pertanyaan? Hubungi kami !</h1>
       <Linked to="ContactUs" spy={true} smooth={true} duration={500}>
           <Button title="Contact Us" />
         </Linked>

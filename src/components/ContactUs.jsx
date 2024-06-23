@@ -15,7 +15,7 @@ const ContactUs = () => {
       <div id="Home" className="my-12">
       <Home />
       </div>
-      <div  id="ContactUs" className=" w-screen flex flex-col items-center justify-center mx-5 mt-10 mb-10 md:mx-1 bg-green-400">
+      <div  id="ContactUs" className=" w-screen flex flex-col text-center mt-10 mb-10 md:mx-1 bg-green-400">
         <h1 className="text-4xl font-bold mt-52 mb-10 hp:text-2xl  text-white ">
           AYO BERGABUNG BERSAMA KAMI
         </h1>

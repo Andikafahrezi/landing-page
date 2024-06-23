@@ -12,8 +12,8 @@ function Component() {
     >
       <div>
         <Linked to="/" className=" flex flex-wrap font-semibold text-4xl xl:mr-96 cursor-pointer hp:mr-0">
-          <img src={img} alt="" className=" w-16"/>
-          <h1 className="text-3xl mt-4">TK Fajar Nusantara</h1>
+          <img src={img} alt="" className=" w-16 sl:w-10"/>
+          <h1 className="text-3xl mt-4 sl:mt-1 sl:text-2xl">TK Fajar Nusantara</h1>
                </Linked>
       </div>
       <NavbarToggle />
