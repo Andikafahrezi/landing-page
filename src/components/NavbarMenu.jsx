@@ -17,7 +17,7 @@ function Menus() {
         </Linked>
       </div>
       <NavbarToggle />
-      <NavbarCollapse className="hp:text-center">
+      <NavbarCollapse className="hp:text-center sl:text-center">
         <Link
           to="home"
           className="hover:text-[#539165] p-1 transition-all cursor-pointer text-lg font-medium"
@@ -44,13 +44,13 @@ function Menus() {
         </Link>
         <Link
           to="contact"
-          className="hover:text-[#539165] p-1 transition-all  cursor-pointer text-lg font-medium"
+          className="hover:text-[#539165] p-1 transition-all cursor-pointer text-lg font-medium"
         >
           Contact
         </Link>
         <Linked
           to="/Ppdb"
-          className=" bg-green-400 text-white hover:bg-white hover:text-black transition-all   hover:outline-white ml-6 py-1 px-6 rounded-full font-medium text-lg"
+          className=" bg-green-400 text-white hover:bg-white hover:text-black transition-all   hover:outline-white ml-6 py-1 px-6 rounded-full font-medium text-lg sl:mx-32"
         >
           PPDB
         </Linked>
