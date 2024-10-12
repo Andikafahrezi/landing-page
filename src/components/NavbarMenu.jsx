@@ -11,7 +11,7 @@ function Menus() {
       className="flex flex-row justify-between p-5 md:px-20 shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
     >
       <div>
-        <Linked to="/" className="flex flex-wrap font-semibold text-4xl xl:mr-40 cursor-pointer hp:mr-0">
+        <Linked to="/" className="flex flex-wrap font-semibold text-4xl lg:mr-20 cursor-pointer hp:mr-0">
         <img src={img} alt="" className=" w-12 rounded-full"/>
           <h1 className=" text-2xl mt-2">TK Fajar Nusantara</h1>
         </Linked>
